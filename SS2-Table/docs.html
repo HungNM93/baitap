@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- Cau truc: the <form>  duoc su dung de tao ra mot form 
+            input types :
+            + text
+            + password
+            + date
+            + time
+            + number
+            + email
+            + month
+            + week
+            + radio -->
+
+    <form action="" method="get">
+      <fieldset>
+        <legend>Search Form</legend>
+
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            required
+            readonly
+            value="admin@gmail.com"
+          />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+        </div>
+        <div>
+          <label for="name">Name</label>
+          <input type="password" id="name" />
+        </div>
+        <div>
+          <label for="date">Date</label>
+          <input type="date" id="date" />
+        </div>
+        <div>
+          <label for="number">Age</label>
+          <input type="number" id="number" />
+        </div>
+
+        <div>
+          <select>
+            <option value="">--Chon dia diem--</option>
+            <option value="">Ha Noi</option>
+            <option value="">Ho Chi Minh</option>
+            <option value="">Da Nang</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="Reset">Reset</label>
+          <input type="reset" id="reset" />
+        </div>
+
+        <button type="submit">Search</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
