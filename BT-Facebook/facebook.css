@@ -1,11 +1,48 @@
-/* gender{
-    position: relative;
 
-    
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    font-family: '';
 } */
 
 
-/* .mk{
-    margin-left: 250px;
-    margin-top: -20px;
-} */
+.ss1 {
+    background-color: #3A5795;
+}
+
+.ss2{
+    background-color: #DFE3EF;
+}
+
+.email, .password{
+    color: white;
+}
+
+.dtlogin, .fgpass{
+    color: #8193B3;
+}
+
+.dk{
+    background-color: #609C4D;
+    color: white;
+    width: 30%;
+    margin: 1%;
+}
+
+
+body {
+    border: 1px solid black ;
+    width: 30%;
+}
+h1{
+    margin: 0;
+}
+
+.info{
+    margin: 1%;
+}

@@ -1,0 +1,64 @@
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ 
+ 
+ p {
+    color: red;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .description {
+    color: violet;
+  }
+
+  .test {
+
+    color: brown;
+  }
+
+  #title{
+    font-size: 30px;
+  }
+
+  /* p{
+    color: burlywood !important;
+  } */
+
+  *{
+    text-decoration: underline;
+  }
+
+  .content-group p {
+    color: black;
+  }
+
+  .red{
+    color: red;
+  }
+
+  ol {
+    list-style: none;
+  }
+
+  h2{
+    text-decoration: line-through;
+  }
+
+  h2{
+    letter-spacing: 1px;
+  }
+
+  html{
+    font-family: 'Roboto', sans-serif;
+  }
+
+ 
