@@ -1,0 +1,20 @@
+/* Hide the navbar initially */
+.navbar {
+    display: none;
+  }
+  
+  /* Show the navbar when the checkbox is checked */
+  input[type="checkbox"]:checked + .navbar {
+    display: block;
+  }
+
+  /* input[type="checkbox"]:checked + .navbar a {
+    display: none;
+  } */
+
+
+  ul{
+    background-color: blue;
+    width: 5%;
+  }
+

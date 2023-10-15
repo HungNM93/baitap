@@ -3,15 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/BT-Facebook/facebook.css" />
+    <link rel="stylesheet" href="./facebook.css" />
     <title>HTML Form</title>
   </head>
 
   <body>
+    <!-- <p>I am a <i>strong</i> man.</p> -->
+
     <main>
       <!-- section 1 -->
       <!-- <form border="1"> -->
-      <section class="ss1">
+
+      <!-- <section class="ss1">
         <form>
           <div>
             <label for="email" class="email">Email hoặc điện thoại</label>
@@ -31,6 +34,25 @@
             <a href="" class="fgpass">Quên mật khẩu</a>
           </div>
         </form>
+      </section> -->
+
+      <section class="ss1">
+        <form>
+          <div class="inline">
+            <label for="email" class="email">Email hoặc điện thoại</label>
+            <input type="text" id="email" />
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox" class="dtlogin">Duy trì đăng nhập</label>
+          </div>
+          <div class="inline">
+            <label for="password" class="password">Mật khẩu</label>
+            <input type="password" id="password" />
+            <a href="" class="fgpass">Quên mật khẩu</a>
+          </div>
+          <div class="inline">
+            <button type="submit" class="login">Đăng nhập</button>
+          </div>
+        </form>
       </section>
 
       <!-- section 2 -->
@@ -47,6 +69,7 @@
               type="text"
               placeholder="Email hoặc số điện thoại"
               class="info"
+              id="info1"
             />
           </div>
           <div>
@@ -54,10 +77,16 @@
               type="text"
               placeholder="Nhập lại email hoặc số điện thoại"
               class="info"
+              id="info2"
             />
           </div>
           <div>
-            <input type="text" placeholder="Mật khẩu mới" class="info" />
+            <input
+              type="text"
+              placeholder="Mật khẩu mới"
+              class="info"
+              id="info3"
+            />
           </div>
           <h4>Ngày sinh</h4>
           <div>

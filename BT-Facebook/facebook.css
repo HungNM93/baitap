@@ -19,8 +19,11 @@
     background-color: #DFE3EF;
 }
 
+
+
 .email, .password{
     color: white;
+    
 }
 
 .dtlogin, .fgpass{
@@ -32,12 +35,25 @@
     color: white;
     width: 30%;
     margin: 1%;
+    border-radius: 4px;
 }
 
+    .inline{
+        display: inline-block;
+        padding: 1px;
+    }
 
-body {
-    border: 1px solid black ;
+/* .inline label{ display: inline-block;
+    width: 190px;
+} */
+
+main {
+    border: 1px solid white ;
     width: 30%;
+    position: relative;
+    left: 35%;
+    
+    
 }
 h1{
     margin: 0;
@@ -45,4 +61,19 @@ h1{
 
 .info{
     margin: 1%;
+    
+}
+
+
+p:first-child i{
+    background: #3A5795;
+}
+
+#info1, #info2, #info3{
+    width: 75%;
+}
+
+.login{
+    color: white;
+    background-color: #5D76AA;
 }

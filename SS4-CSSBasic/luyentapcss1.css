@@ -1,0 +1,21 @@
+
+
+/* body{
+    width: 800px;
+} */
+
+
+/* h1{
+    text-align: center;
+} */
+
+.container{
+    text-align: center;
+    background-image: linear-gradient(red,blue);
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
